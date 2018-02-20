@@ -1,4 +1,9 @@
 /* Navbar */
+#icon {
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+}
 .hover-underline-menu {
   width: 100%;
 }
@@ -31,7 +36,7 @@
   right: 0;
   transition: all 0.5s ease;
 }
-
+/* Main Container */
 .wrapper {
   background: url("http://www.tokkoro.com/picsup/2913459-artwork-cherry-blossom-trees-lava-clouds___mixed-wallpapers.jpg");
   background-attachment: fixed;
