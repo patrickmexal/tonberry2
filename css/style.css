@@ -53,7 +53,7 @@
 
 /* Search Bar */
 .animated-search-form[type=search] {
-  width: 15rem;
+  width: 12rem;
   border: 0.125rem solid #e6e6e6;
   box-shadow: 0 0 3.125rem black;
   border-radius: 2px;
@@ -65,11 +65,13 @@
 }
 
 .animated-search-form[type=search]:focus {
+  text-align: center;
   width: 100%;
 }
 
 /* Table */
 #table1 {
+  box-shadow: 0 0 3.125rem black;
   margin-top: 50px;
   border-radius: 5px;
 }
