@@ -46,7 +46,9 @@
   background: white;
   box-shadow: 0 0 3.125rem black;
 }
-
+span {
+  font-family: "Josefin Sans", sans-serif;
+}
 #themain {
   margin-top: 100px;
 }
