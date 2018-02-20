@@ -50,23 +50,27 @@
 #themain {
   margin-top: 100px;
 }
-
+#titlebar {
+  font-family: "Meddon", cursive;
+}
 /* Search Bar */
 .animated-search-form[type=search] {
   width: 12rem;
   border: 0.125rem solid #e6e6e6;
-  box-shadow: 0 0 3.125rem black;
-  border-radius: 2px;
+  box-shadow: 0 0 4rem black;
+  border-radius: 4px;
   background-image: url("//image.ibb.co/i7NbrQ/search_icon_15.png");
   background-position: 0.625rem 0.625rem;
   background-repeat: no-repeat;
   padding: 0.75rem 1.25rem 0.75rem 2rem;
   transition: width 0.4s ease-in-out;
+  align-self: center;
 }
 
 .animated-search-form[type=search]:focus {
-  text-align: center;
+  padding: 10px;
   width: 100%;
+  overflow: hidden;
 }
 
 /* Table */
